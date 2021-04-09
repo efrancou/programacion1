@@ -82,15 +82,15 @@ print("El presupuesto sería: ", (cantidad_m2 * precio_pintura) + (cantidad_m2 *
 
 #Se desea calcular cuántos metros se deben recorreré para atravesar una plaza en diagonal,
 #pero solo se conocen las distancia de las cuadras de ambos lados.
-"""
+
 from math import sqrt
 
-lado1 = int(input("Ingrese el valor del lado 1: "))
-lado2 = int(input("Ingrese el valor del lado 2: "))
+lado1 = int(input("Ingrese los metros del lado 1: "))
+lado2 = int(input("Ingrese los metros del lado 2: "))
 
-diagonal = (round(sqrt(lado1 ** 2 + lado2 ** 2),2))
-print(diagonal)
-"""
+diagonal = round(sqrt(lado1 ** 2 + lado2 ** 2),2)
+print(diagonal, "metros")
+
 
 #EJERCICIO 8
 
@@ -234,7 +234,8 @@ print("El promedio de temperatura es: ", (presion_dia_uno + presion_dia_dos + pr
 #EJERCICIO 17
 
 #Convertir un valor entero de horas a segundos.
-
+"""
 horas = int(input("Ingrese la cantidad de horas: "))
 
 print(horas, "horas equivalen a: ", ((horas*60)*60), "segundos")
+"""
